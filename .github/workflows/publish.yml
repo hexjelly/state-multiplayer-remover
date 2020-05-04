@@ -13,14 +13,14 @@ jobs:
       matrix:
         include:
           - os: ubuntu-latest
-            artifact_name: state-mp-remover
-            asset_name: state-mp-remover-linux-amd64
+            artifact_name: state-multiplayer-remover
+            asset_name: state-multiplayer-remover-linux-amd64
           - os: windows-latest
-            artifact_name: state-mp-remover.exe
-            asset_name: state-mp-remover-windows-amd64
+            artifact_name: state-multiplayer-remover.exe
+            asset_name: state-multiplayer-remover-windows-amd64
           - os: macos-latest
-            artifact_name: state-mp-remover
-            asset_name: state-mp-remover-macos-amd64
+            artifact_name: state-multiplayer-remover
+            asset_name: state-multiplayer-remover-macos-amd64
 
     steps:
     - uses: hecrj/setup-rust-action@v1
