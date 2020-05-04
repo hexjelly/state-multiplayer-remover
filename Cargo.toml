@@ -1,6 +1,6 @@
 [package]
 name = "state-multiplayer-remover"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Roger Andersen <hexjelly@hexjelly.com>"]
 edition = "2018"
 
