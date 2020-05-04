@@ -1,0 +1,11 @@
+[package]
+name = "state-multiplayer-remover"
+version = "0.1.0"
+authors = ["Roger Andersen <hexjelly@hexjelly.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+elma = "0.1.14"
+structopt = "0.3.14"
